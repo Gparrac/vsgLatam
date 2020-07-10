@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cuerpo{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color:  #212121; 
+}
+.card1{
+	width: 100%;
+	position: relative;
+	background-color: red;
+	position: relative;
+	display: flex;
+
+	margin-top: 3px;
+}
+ img{
+	width: 100%;
+
+}
+.cd-cont {
+	height:10% ; 
+	width:15%;
+	position: absolute;	
+	margin-top: 3%;
+	align-self: flex-start;
+}
+.cd-cont1{
+
+	height:15% ; 
+	width:40%;
+	position: absolute;	
+	text-align: center;
+	align-self: flex-end;
+	font-family: 'Manrope', sans-serif;
+	color: white;
+
+}
+.cd-cont2{
+	height:30px; 
+	width:500px;
+	position: absolute;	
+	text-align: left;
+	align-self: center;
+	font-family: 'Manrope', sans-serif;
+	color: white;
+	font-size: 20px; 
+	margin-left: 50px;
+}
+.cd-cont2 h3{
+	color: lime;
+	font-size: 40px;
+	font-family: 'Manrope', sans-serif; 
+	text-transform: uppercase;
+}
+strong{
+	font-size: 20px;
+	align-items: center;	
+}
+.card2{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	
+}
+.cdimg{
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-right: 0px;		
+	flex-grow: 1;
+}
+.c2{
+
+	width:700px;
+	min-width:600px;
+}
+.c3{
+	width:200px;
+	min-width:200px; 
+		
+}
+
+
+ 
